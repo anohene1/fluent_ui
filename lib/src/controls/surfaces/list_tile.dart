@@ -201,7 +201,7 @@ class ListTile extends StatelessWidget {
         const placeholder = SizedBox(width: 12.0);
 
         final tile = Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             if (leading != null)
               Padding(
